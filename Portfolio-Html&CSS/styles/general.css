@@ -4,6 +4,10 @@ body {
     color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-size: 16px;
     
