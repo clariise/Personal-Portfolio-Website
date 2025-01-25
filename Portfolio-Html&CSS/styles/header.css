@@ -4,17 +4,11 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0 10%;
-}
-
-.left-section {
-    width: 150px;
-    display: flex;
-    align-items: center;
+    padding: 20px;
 }
 
 .left-section .logo { 
-    font-size: 25px;
+    font-size: 24px;
     color:rgb(208, 86, 24);
     font-weight: 900;
     text-decoration: none;
@@ -22,24 +16,20 @@
     opacity: 1;
 }
 
-.left-section .logo:hover{
-    color: rgb(208, 86, 24);
-    opacity: 0.9;
-}
+    .left-section .logo:hover{
+        color: rgb(208, 86, 24);
+        opacity: 0.9;
+    }
 
-.left-section .logo:active{
-    color: rgb(208, 86, 24);
-    opacity: 0.7;
-}
+    .left-section .logo:active{
+        color: rgb(208, 86, 24);
+        opacity: 0.7;
+    }
 
 .middle-section{
-    display: flex;
-    flex:1;
+    display: flex; 
     align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    gap: 20px;
 }
 
 .middle-section a{
@@ -49,9 +39,7 @@
     color: rgb(208, 86, 24);
     opacity: 1  ;
     display: inline-block;
-
     }
-
 
     .middle-section a:hover {
         text-decoration: underline;
@@ -67,43 +55,51 @@
 
 .right-section {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100px;
-    z-index: 100 ;
-    position: relative;
+    gap: 10px;
 }
 
 .right-section i{
   margin-left: 10px;
-  display: block;
+  cursor: pointer;
+  display: none;
  }
 
+ .right-section svg {
+  cursor: pointer;
+ }
 
- @media (max-width: 600px){
+/* Media query for header/banner mobile*/
+ @media (max-width: 999px){
+  .header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
   .right-section i{
     display: block;
   }
 
   .middle-section {
     display: none;
-    border-top: 1px solid rgb(198, 63, 18) ;
-    margin-top: 80px;
-    position: fixed;
-    left: 25px;
-    width: 81%;
-    z-index: 100;
+    margin-top: 57px;
+    position: absolute;
+    top:0;
+    right: 50px;
+    left: 245px;
+    margin-top: 50px;
   }
 
   .middle-section a{
-    font-size: 22px;
+    font-size: 14px;
+    font-weight: 400;
     color: aliceblue;
-    background-color: rgb(198, 63, 18) ;
-    padding: 0 0 15px 7px;
-    width: 100%;
+    background-color: rgb(208, 86, 24);
+    display: flex;
+    justify-content: center;
   }
-
-
   .middle-section a:hover {
     color:white;
     opacity: 0.9;
@@ -111,24 +107,36 @@
 .middle-section a:active {
     color:white;
     opacity: 0.7;
-
 }
 
-  
 .middle-section.show{
   display: block;
 }
 
-  
+.banner {
+  flex-direction: column;
+}
+
+.column-1, .column-2 {
+  order: initial; 
+}
+
+.column-1{
+  margin-top: 15px;
+}
+
+.column-2 {
+  order: -1;
+  display: flex;
+  justify-content: center;
+}
+
  }
 
 .dark-mode {
     background-color: black;
     color: white;
   }
-
-
-
 
 
   /* banner */
@@ -140,14 +148,6 @@
     margin: 50px 0;
     padding: 0 10%;
 
-  }
-
-  @media (max-width:600px) {
-    .column-2 {
-      
-      
-    }
-    
   }
 
   .column-1 {
@@ -187,10 +187,7 @@
       background-color: white;
 
     }
-
-
     .social-media-app  {
-
       height: 20px;
       display: flex;
       flex-direction: row;
@@ -200,10 +197,15 @@
       gap: 5px;
     }
 
-    .social-media-app i {
+    .social-media-app a {
       height: 16px;
+      text-decoration: none;
+      color: inherit;
     }
 
+    .social-media-app a i {
+      color:inherit;
+    }
 
   .column-2 {
     width: 1000px;
@@ -215,7 +217,7 @@
     border: 2px solid rgb(208, 86, 24);
   }
 
- 
+
 
 
 
