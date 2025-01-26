@@ -4,7 +4,12 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 10%;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
 }
 
 .left-section .logo { 
@@ -70,12 +75,12 @@
  }
 
 /* Media query for header/banner mobile*/
- @media (max-width: 999px){
+ @media (max-width: 767px){
   .header {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 10%;
 }
 
   .right-section i{
@@ -133,14 +138,41 @@
 
  }
 
-.dark-mode {
+
+ @media (max-width: 768px) and (max-width:999px ){
+  .header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .column-1, .column-2 {
+    order: initial; 
+  }
+  
+  .column-1{
+    margin-top: 15px;
+  }
+  
+  .column-2 {
+    order: -1;
+    display: flex;
+    justify-content: center;
+  }
+}
+  
+  .dark-mode {
     background-color: black;
     color: white;
   }
 
 
   /* banner */
-
   .banner {
     display: flex;
     justify-content: space-between;
@@ -166,35 +198,40 @@
     }
 
     .banner-buttons {
-      display: flex;
-      flex-direction: row;
-      width: 150px;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 85px 85px;
+      column-gap: 8px;
+      padding: 10px 0 10px 0;
+      
     }
-
     .banner-buttons a{
-      padding: 5px;
+      padding: 8px 0 8px 0;
       text-decoration: none;
+      display: flex;
+      justify-content: center;
       background-color: rgb(208, 86, 24);
       color: white;
+      border-radius: 10px;
+      transition: 1s;
+      box-sizing: border-box;
+      border: 1px solid transparent;  
     }
 
 
     .banner-buttons a:hover{
       color: rgb(208, 86, 24);
       background-color: white;
-
+      border-color: rgb(208, 86, 24);
     }
     .social-media-app  {
-      height: 20px;
+      height: 22px;
       display: flex;
       flex-direction: row;
       width: 60px;
       justify-content:first baseline;
       align-items: center;
-      gap: 5px;
+      gap: 10px;
+      margin-left: 3px;
     }
 
     .social-media-app a {
@@ -207,12 +244,9 @@
       color:inherit;
     }
 
-  .column-2 {
-    width: 1000px;
-  }
-
   .column-2 img {
     height: 90%;
+    width: 350px;
     border-radius: 1000px;
     border: 2px solid rgb(208, 86, 24);
   }
