@@ -1,0 +1,53 @@
+.container {
+    margin: 0 10%;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.offer-description {
+    padding: 5px 15%;
+    text-align: center;
+}
+
+.services-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.services-section-row {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    padding: 10px;  
+    border: 1px solid rgb(208, 86, 24);
+    border-radius: 8px;
+}
+
+.services-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.services-dev-icon img {
+    padding: 5px;
+    border-radius: 50px;
+    background-color:  rgb(237, 99, 30);
+    height: 45px;
+}
+
+.services-dev-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.services-dev-info p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+   
+
