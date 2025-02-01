@@ -1,6 +1,6 @@
 .container {
     margin: 0 10%;
-    height: 100vh;
+    height: 150vh;
 }
 
 h1{
@@ -51,3 +51,67 @@ h1{
 }
    
 
+/* tech stack */
+
+.techstack-container {
+    margin: 10% 10px 0px 10px;
+
+}
+
+.techstack-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+.techstack-container img {
+    height: 30px;
+}
+
+h2{
+    margin: 0px 0px 0px -15px;
+}
+
+.techstack-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 40PX;
+}
+.techstack-description{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.techstack-text {
+    text-align: justify;
+}
+
+.techstack-logos {
+    padding: 15px;
+
+}
+
+.techstack-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top:10px;
+    
+}
+
+.logos {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  rgb(237, 99, 30);
+    border-radius: 10px;
+}
+
+.logos img {
+    height: 50px;
+}
