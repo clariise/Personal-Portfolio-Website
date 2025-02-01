@@ -22,7 +22,6 @@ h1{
 .services-section-row {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     padding: 10px;  
-    border: 1px solid rgb(208, 86, 24);
     border-radius: 8px;
 }
 
@@ -109,6 +108,7 @@ h2{
     justify-content: center;
     align-items: center;
     border: 2px solid  rgb(237, 99, 30);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
