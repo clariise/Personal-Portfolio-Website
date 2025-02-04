@@ -1,0 +1,33 @@
+.portfolio-container{
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.portfolio-title {
+    margin-top: -25px;
+    margin-left: -4px;
+    font-size: 70px;
+}
+
+.portfolio-card-case {
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.portfolio-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 20px;
+}
+
+.cards{
+    height: 40vh;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.cards img {
+    height: 100%;
+    width: 100%;
+}

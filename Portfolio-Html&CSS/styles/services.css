@@ -1,6 +1,6 @@
 .container {
-    margin: 0 10%;
-    height: 150vh;
+margin-top: 5%;
+
 }
 
 h1{
@@ -17,12 +17,15 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .services-section-row {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     padding: 10px;  
     border-radius: 8px;
+ 
 }
 
 .services-info-grid {
@@ -53,16 +56,15 @@ h1{
 /* tech stack */
 
 .techstack-container {
-    margin: 10% 10px 0px 10px;
-
+margin-top: 5%;
+margin-left: 5%;
+margin-right: 5%;
 }
 
 .techstack-grid {
     display: grid;
     grid-template-columns: 50px 1fr;
-    margin-left: 10px;
     align-items: center;
-
 }
 
 .techstack-container img {
@@ -76,7 +78,6 @@ h2{
 .techstack-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
     gap: 40PX;
 }
 .techstack-description{
@@ -91,14 +92,12 @@ h2{
 
 .techstack-logos {
     padding: 15px;
-
 }
 
 .techstack-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    margin-top:10px;
     
 }
 

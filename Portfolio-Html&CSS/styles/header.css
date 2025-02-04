@@ -1,3 +1,5 @@
+
+
 /* navbar/header */
 
 .header {
@@ -252,7 +254,10 @@
   }
 
 
-
+/* footer */
+footer{
+  margin: 10%;
+}
 
 
 
