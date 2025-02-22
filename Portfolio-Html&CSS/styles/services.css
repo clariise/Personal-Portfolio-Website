@@ -1,117 +1,116 @@
 .container {
-margin-top: 5%;
+  margin-top: 5%;
 
 }
 
 h1{
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .offer-description {
-    padding: 5px 15%;
-    text-align: center;
+  padding: 5px 15%;
+  text-align: center;
 }
 
 .services-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .services-section-row {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    padding: 10px;  
-    border-radius: 8px;
- 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  padding: 10px;  
+  border-radius: 8px;
 }
 
 .services-info-grid {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    gap: 10px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 10px;
+  align-items: center;
 }
 
 .services-dev-icon img {
-    padding: 5px;
-    border-radius: 50px;
-    background-color:  rgb(237, 99, 30);
-    height: 45px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color:  rgb(237, 99, 30);
+  height: 45px;
 }
 
 .services-dev-title {
-    font-size: 18px;
-    font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .services-dev-info p{
-    margin-top: 10px;
-    margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /* tech stack */
 
 .techstack-container {
-margin-top: 10%;
-margin-left: 5%;
-margin-right: 5%;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .techstack-grid {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
 }
 
 .techstack-container img {
-    height: 30px;
+  height: 30px;
 }
 
 h2{
-    margin: 0px 0px 0px -15px;
+  margin: 0px 0px 0px -15px;
 }
 
 .techstack-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40PX;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 .techstack-description{
-    display: flex;
-    align-items: center;
-    padding: 4px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
 }
 
 .techstack-text {
-    text-align: justify;
+  text-align: justify;
 }
 
 .techstack-logos {
-    padding: 15px;
+  padding: 15px;
 }
 
 .techstack-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .logos {
-    height: 12vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid  rgb(237, 99, 30);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin-top: 10px;   
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid  rgb(237, 99, 30);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 10px;   
 }
 
 .logos img {
-    height: 50px;
+  height: 50px;
 }
 
 
@@ -121,85 +120,81 @@ h2{
 /* Media query for techstack mobile*/
 @media (max-width:767px){
 
-    .offer-description {
-        padding: 5px 10%;
-        text-align: justify;
-    }
-    .services-section {
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .offer-description {
+    padding: 5px 10%;
+    text-align: justify;
+  }
+  .services-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .techstack-content {
-        display: grid;
-        grid-template-columns:1fr;
-    }
+  .techstack-content {
+    display: grid;
+    grid-template-columns:1fr;
+  }
 
-    .techstack-description, .techstack-logos{
-        order: initial; 
-    }
+  .techstack-description, .techstack-logos{
+    order: initial; 
+  }
 
-    .techstack-description{
-        margin-top: 10px; 
-    }
+  .techstack-description{
+    margin-top: 10px; 
+  }
 
-    .techstack-text {
-        margin-bottom: 0;
-    }
+  .techstack-text {
+    margin-bottom: 0;
+  }
 
-    .techstack-logos {
-        padding: 10px;
-        margin-top: 0;
-    }
-    .techstack-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-    }
+  .techstack-logos {
+    padding: 10px;
+    margin-top: 0;
+  }
+  .techstack-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
 }
 
 
 @media (min-width:768px) and (max-width:999px)
-{
-    .services-section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  {
+  .services-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .techstack-content {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .techstack-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-    .techstack-description, .techstack-logos{
-        order: initial; 
-    }
+  .techstack-description, .techstack-logos{
+    order: initial; 
+  }
 
-    .techstack-description{
-        margin-top: 10px; 
-    }
+  .techstack-description{
+    margin-top: 10px; 
+  }
 
-    .techstack-text {
-        margin-bottom: 0;
-    }
+  .techstack-text {
+    margin-bottom: 0;
+  }
 
-    .techstack-logos {
-        padding: 10px;
-        margin-top: 0;
-    }
-    .techstack-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-    }
+  .techstack-logos {
+    padding: 10px;
+    margin-top: 0;
+  }
+  .techstack-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
 }
 
-  .dark-mode {
-      background-color: black;
-      color: white;
-    }
-  
+
