@@ -1,24 +1,22 @@
-.contact-container{
-    margin: 5% 10%;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    text-align: center;
+.contact-container {
+  margin: 5% 10%;
+  text-align: center;
 }
 
-
-.contact-intro h1{
-    margin-top: 30px;
+.contact-intro h1 {
+  margin-top: 30px;
 }
 
 .email-info {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
-.email-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.email-card {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
 }
 
 .email-card i {
-    margin-right: 5px;
+  margin-right: 5px;
+  color: orangered;
 }
-
